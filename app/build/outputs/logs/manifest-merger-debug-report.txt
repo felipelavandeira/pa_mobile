@@ -1,16 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:design:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/dab5c512fcc31178c8c1377e3a7306ba/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/e50eeb7e805b314cd6e4874ba7caeaad/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/felipe/.gradle/caches/transforms-2/files-2.1/b460d430f7d5a29b45033f164fac9f5e/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:support-fragment:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/464716e318321665ec41c99eb14e56e6/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/b7b49de14b44155dbf55f88ac66d0d36/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/61a0c34e055b6b8f0d75ca23a7c127e0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/68c803bef98c1c21a20c05c9ca4ccf9b/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/ed20c70302356041c0ddbb7cf49811f0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/f93a5d93b0ede036b9fe883cb368255a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/0c45a8b07b6329a26d0f22828c8d2233/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/2c7fae909defd1e8bffd98645d1ff0b2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/b8b9fe4fddbc799faa7266af47a6b5b9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/cc4d54dbd0aebae745e7eac005a449e4/AndroidManifest.xml:17:1-22:12
@@ -22,36 +25,39 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/felipe/.gradl
 MERGED from [com.android.support:support-compat:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/faf96406e7c7693443a43a32e6ce2209/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/8b16ea588309d9dc0a0dc9dc8f39f070/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/c5e18f93e78322519e6c7cd98e18539b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/58cb208a91f3e89a7258824a72e57623/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/a3653e1228e7b196a7151b4aedb7f055/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/43ddb2585f34fbd6621f31dabd429a2c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/63c87e0d7ce6658d2d86b5f0e40f6622/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/328af97451be3db0b8e2f58eacd665d6/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/5802de86b646a987490cace424d9f933/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/e61622230a69aee696373f1f2c3d7127/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/7a3089ec1229bd719f1916f74d933758/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/69172dfbea1aca96e09a00dea6674fa3/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/126e82a6c10a35a273f0ec61f464cf70/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/e61622230a69aee696373f1f2c3d7127/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-29:12
 	package
 		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:4:5-37
 		INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml
 		INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml
-		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml
-		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:1-29:12
 		INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:6:5-22:19
+ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:6:5-27:19
+MERGED from [com.android.support:design:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/dab5c512fcc31178c8c1377e3a7306ba/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/dab5c512fcc31178c8c1377e3a7306ba/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/felipe/.gradle/caches/transforms-2/files-2.1/b460d430f7d5a29b45033f164fac9f5e/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/felipe/.gradle/caches/transforms-2/files-2.1/b460d430f7d5a29b45033f164fac9f5e/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:support-compat:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/faf96406e7c7693443a43a32e6ce2209/AndroidManifest.xml:22:5-94
@@ -74,26 +80,36 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/felipe/.gradl
 		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
 		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:12:9-40
-activity#com.pa.schoolnetmobile.MainActivity
-ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:15:9-21:20
+activity#com.pa.schoolnetmobile.InitialActivity
+ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:14:9-17:68
+	android:label
+		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:16:13-59
 	android:theme
-		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:15:48-98
+		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:17:13-56
 	android:name
-		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:15:19-47
+		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:15:13-44
+activity#com.pa.schoolnetmobile.MainActivity
+ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:theme
+		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:20:13-63
+	android:name
+		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:19:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml:24:27-74
 uses-sdk
 INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml
 INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/dab5c512fcc31178c8c1377e3a7306ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/dab5c512fcc31178c8c1377e3a7306ba/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/e50eeb7e805b314cd6e4874ba7caeaad/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/e50eeb7e805b314cd6e4874ba7caeaad/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/felipe/.gradle/caches/transforms-2/files-2.1/b460d430f7d5a29b45033f164fac9f5e/AndroidManifest.xml:5:5-7:41
@@ -102,12 +118,16 @@ MERGED from [com.android.support:support-fragment:28.0.0] /home/felipe/.gradle/c
 MERGED from [com.android.support:support-fragment:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/464716e318321665ec41c99eb14e56e6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/b7b49de14b44155dbf55f88ac66d0d36/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/b7b49de14b44155dbf55f88ac66d0d36/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/61a0c34e055b6b8f0d75ca23a7c127e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/61a0c34e055b6b8f0d75ca23a7c127e0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/68c803bef98c1c21a20c05c9ca4ccf9b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/68c803bef98c1c21a20c05c9ca4ccf9b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/ed20c70302356041c0ddbb7cf49811f0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/ed20c70302356041c0ddbb7cf49811f0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/f93a5d93b0ede036b9fe883cb368255a/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/f93a5d93b0ede036b9fe883cb368255a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/0c45a8b07b6329a26d0f22828c8d2233/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/0c45a8b07b6329a26d0f22828c8d2233/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/2c7fae909defd1e8bffd98645d1ff0b2/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:loader:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/2c7fae909defd1e8bffd98645d1ff0b2/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:viewpager:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/b8b9fe4fddbc799faa7266af47a6b5b9/AndroidManifest.xml:20:5-44
@@ -130,6 +150,8 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /home/felipe/.gradl
 MERGED from [com.android.support:versionedparcelable:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/8b16ea588309d9dc0a0dc9dc8f39f070/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/c5e18f93e78322519e6c7cd98e18539b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/c5e18f93e78322519e6c7cd98e18539b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/58cb208a91f3e89a7258824a72e57623/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/58cb208a91f3e89a7258824a72e57623/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/a3653e1228e7b196a7151b4aedb7f055/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/a3653e1228e7b196a7151b4aedb7f055/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/43ddb2585f34fbd6621f31dabd429a2c/AndroidManifest.xml:20:5-44
@@ -140,14 +162,14 @@ MERGED from [com.android.support:print:28.0.0] /home/felipe/.gradle/caches/trans
 MERGED from [com.android.support:print:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/328af97451be3db0b8e2f58eacd665d6/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/5802de86b646a987490cace424d9f933/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/5802de86b646a987490cace424d9f933/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/e61622230a69aee696373f1f2c3d7127/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/e61622230a69aee696373f1f2c3d7127/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/7a3089ec1229bd719f1916f74d933758/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/7a3089ec1229bd719f1916f74d933758/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/69172dfbea1aca96e09a00dea6674fa3/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/69172dfbea1aca96e09a00dea6674fa3/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/126e82a6c10a35a273f0ec61f464cf70/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /home/felipe/.gradle/caches/transforms-2/files-2.1/126e82a6c10a35a273f0ec61f464cf70/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/e61622230a69aee696373f1f2c3d7127/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/felipe/.gradle/caches/transforms-2/files-2.1/e61622230a69aee696373f1f2c3d7127/AndroidManifest.xml:20:5-44
 INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml
 INJECTED from /home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
