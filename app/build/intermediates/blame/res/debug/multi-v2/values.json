@@ -84,20 +84,20 @@
                 {
                     "source": "/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "3,15,-1",
-                        "startColumns": "4,4,-1",
-                        "startOffsets": "101,648,-1",
-                        "endLines": "8,19,-1",
-                        "endColumns": "12,12,-1",
-                        "endOffsets": "415,924,-1"
+                        "startLines": "3,-1",
+                        "startColumns": "4,-1",
+                        "startOffsets": "101,-1",
+                        "endLines": "8,-1",
+                        "endColumns": "12,-1",
+                        "endOffsets": "415,-1"
                     },
                     "to": {
-                        "startLines": "391,1856,1861",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "23440,121280,121559",
-                        "endLines": "396,1860,1864",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "23754,121554,121778"
+                        "startLines": "391,1856",
+                        "startColumns": "4,4",
+                        "startOffsets": "23440,121280",
+                        "endLines": "396,1859",
+                        "endColumns": "12,12",
+                        "endOffsets": "23754,121499"
                     }
                 },
                 {

@@ -45,7 +45,7 @@
                 android:textColor="@color/white"
                 android:hint="@string/txt_ra"
                 android:id="@+id/etRA"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="16dp" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -54,14 +54,16 @@
                 tools:ignore="LabelFor"
                 android:textColor="@color/white"
                 android:hint="@string/txt_senha"
-                android:id="@+id/etPassword" />
+                android:id="@+id/etPassword"
+                android:layout_marginBottom="32dp"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/txt_entrar"
                 android:layout_gravity="end"
-                style="@style/Widget.AppCompat.Button"/>
+                android:background="@drawable/button_white"
+                android:onClick="login"/>
 
         </LinearLayout>
 
