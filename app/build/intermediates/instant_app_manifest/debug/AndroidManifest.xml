@@ -18,10 +18,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.pa.schoolnetmobile.InitialActivity"
-            android:label="@string/title_activity_initial"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.pa.schoolnetmobile.InitialActivity" />
         <activity
             android:name="com.pa.schoolnetmobile.MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
