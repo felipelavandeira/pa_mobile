@@ -4,7 +4,7 @@
             "outputFile": "/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/felipe/.gradle/caches/transforms-2/files-2.1/e50eeb7e805b314cd6e4874ba7caeaad/res/values-v16/values-v16.xml",
+                    "source": "/home/felipe/.gradle/caches/transforms-2/files-2.1/0e499accc9a9dfa3bbbe2466fcf9203d/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/felipe/.gradle/caches/transforms-2/files-2.1/faf96406e7c7693443a43a32e6ce2209/res/values-v16/values-v16.xml",
+                    "source": "/home/felipe/.gradle/caches/transforms-2/files-2.1/8ea50d3ff90ff7a614d757f57a0a5d91/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

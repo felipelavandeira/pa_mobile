@@ -4,13 +4,32 @@
             "outputFile": "/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/felipe/.gradle/caches/transforms-2/files-2.1/e50eeb7e805b314cd6e4874ba7caeaad/res/values-land/values-land.xml",
+                    "source": "/home/felipe/.gradle/caches/transforms-2/files-2.1/0e499accc9a9dfa3bbbe2466fcf9203d/res/values-land/values-land.xml",
                     "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "/home/felipe/.gradle/caches/transforms-2/files-2.1/6f6c5b6f361c7c5f4762c52f601b1180/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "328",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "505"
                     }
                 }
             ]
