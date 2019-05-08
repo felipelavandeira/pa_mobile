@@ -2,13 +2,10 @@ package com.pa.schoolnetmobile;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.EditText;
 import android.widget.TextView;
-
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Locale;
 
 public class InitialActivity extends AppCompatActivity {
 

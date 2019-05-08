@@ -5,4 +5,5 @@
     <string name="txt_senha">Senha</string>
     <string name="txt_entrar">Entrar</string>
     <string name="title_activity_initial">InitialActivity</string>
+    <string name="txt_faltas">Faltas</string>
 </resources>

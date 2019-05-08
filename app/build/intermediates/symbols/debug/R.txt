@@ -1103,8 +1103,9 @@ int string search_menu_title 0x7f0c0027
 int string status_bar_notification_info_overflow 0x7f0c0028
 int string title_activity_initial 0x7f0c0029
 int string txt_entrar 0x7f0c002a
-int string txt_ra 0x7f0c002b
-int string txt_senha 0x7f0c002c
+int string txt_faltas 0x7f0c002b
+int string txt_ra 0x7f0c002c
+int string txt_senha 0x7f0c002d
 int style AlertDialog_AppCompat 0x7f0d0000
 int style AlertDialog_AppCompat_Light 0x7f0d0001
 int style Animation_AppCompat_Dialog 0x7f0d0002
