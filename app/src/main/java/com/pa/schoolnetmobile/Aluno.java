@@ -1,4 +1,4 @@
-package com.pa.schoolnetmobile.Controllers;
+package com.pa.schoolnetmobile;
 
 public class Aluno {
     private String nome;
@@ -58,4 +58,6 @@ public class Aluno {
     public void setCurso(Curso curso) {
         this.curso = curso;
     }
+
+
 }

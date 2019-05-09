@@ -1,4 +1,4 @@
-package com.pa.schoolnetmobile.Controllers;
+package com.pa.schoolnetmobile;
 
 public class Disciplina {
     private String nome;

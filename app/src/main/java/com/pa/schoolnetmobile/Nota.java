@@ -1,4 +1,6 @@
-package com.pa.schoolnetmobile.Controllers;
+package com.pa.schoolnetmobile;
+
+import com.pa.schoolnetmobile.Disciplina;
 
 public class Nota {
     private Double nota;
