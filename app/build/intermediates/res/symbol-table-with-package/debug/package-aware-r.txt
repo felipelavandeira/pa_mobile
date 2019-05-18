@@ -890,12 +890,16 @@ id line1
 id line3
 id listMode
 id list_item
+id lista_faltas
 id masked
 id media_actions
+id media_note
 id message
 id middle
 id mini
 id multiply
+id n1_note
+id n2_note
 id navigation_header_container
 id never
 id none
@@ -903,6 +907,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id numberFaltas
 id packed
 id parallax
 id parent
@@ -977,6 +982,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id txtDisciplina
 id txt_day
 id uniform
 id up
@@ -1039,6 +1045,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout list_faltas
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

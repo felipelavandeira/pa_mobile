@@ -1,4 +1,4 @@
-#Wed May 08 21:50:31 BRT 2019
+#Thu May 16 19:27:01 BRT 2019
 base.0=/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/transforms/dexMerger/debug/3
 path.0=classes.dex
 renamed.0=classes.dex

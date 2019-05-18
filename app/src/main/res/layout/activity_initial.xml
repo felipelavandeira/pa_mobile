@@ -1,74 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InitialActivity">
+    tools:context=".InitialActivity"
+    android:orientation="vertical"
+    android:paddingTop="48dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="48dp"
+    android:paddingLeft="16dp">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
 
-        <LinearLayout
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_day"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="10pt"
+            tools:ignore="NestedWeights" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/greyBlue"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/nomeAula"
+            android:text="SIF031 - Engenharia de Software I"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/assuntoAula"
+            android:text="Modelo de custo de software (Pontos de Função)."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="10pt"
+            tools:ignore="NestedWeights"
+            android:text="@string/txt_faltas"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/greyBlue"/>
+
+        <ListView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingTop="48dp"
-            android:paddingRight="16dp"
-            android:paddingBottom="48dp"
-            android:paddingLeft="16dp">
+            android:id="@+id/lista_faltas"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/txt_day"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="10pt"
-                tools:ignore="NestedWeights" />
+    </LinearLayout>
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/greyBlue"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="5"
-                android:orientation="vertical"
-                android:paddingTop="10dp"
-                android:layout_marginBottom="56dp">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:text="Aula de Estrutura de Dados"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Na aula de hoje serão vistas as estruturas de Fila, Pilha e Lista. E lágrimas escorrerão dos alunos."/>
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textSize="10pt"
-                tools:ignore="NestedWeights"
-                android:text="@string/txt_faltas"/>
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/greyBlue"/>
-
-            <ListView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-        </LinearLayout>
-
-    </ScrollView>
-
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
