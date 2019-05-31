@@ -2,49 +2,48 @@
 <instant-run
     abi="x86,armeabi-v7a,armeabi"
     api-level="21"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="xhdpi"
     format="10"
     plugin-version="3.4.0"
-    timestamp="1558137658043"
+    timestamp="1559265882490"
     token="9027127349759958662"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="716" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="82" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="160" />
+        duration="0" />
     <task
         name="verifier"
-        duration="29" />
-
-    <artifact
-        location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1558134674960"
+        timestamp="1559263433073"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
@@ -64,37 +63,31 @@
         <artifact
             location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1558137196740"
+        timestamp="1559264799074"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1558137574825"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1559265479305"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="HOT_WARM"
-        timestamp="1558137658043"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
+        build-mode="COLD"
+        timestamp="1559265882490"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

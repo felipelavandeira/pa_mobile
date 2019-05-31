@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 import com.pa.schoolnetmobile.adapter.NotasFaltasAdapter;
 import com.pa.schoolnetmobile.data.Disciplina;
@@ -25,6 +26,7 @@ public class InitialActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_initial);
+
         TextView txtView = findViewById(R.id.txt_day);
         listaNotas = findViewById(R.id.lista_faltas);
         list = new ArrayList<>();
