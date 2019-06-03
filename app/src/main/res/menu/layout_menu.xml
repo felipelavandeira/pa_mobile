@@ -3,15 +3,7 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/inicio"
-            android:title="@string/txt_inicio_menu"/>
-
-        <item
-            android:id="@+id/cronograma"
-            android:title="@string/txt_cronograma_menu" />
-
-        <item
-            android:id="@+id/perfil"
-            android:title="@string/txt_perfil_menu" />
+            android:id="@+id/logout"
+            android:title="@string/logout_txt"/>
     </group>
 </menu>

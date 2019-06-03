@@ -1,5 +1,7 @@
 package com.pa.schoolnetmobile.data;
 
+import android.support.annotation.Nullable;
+
 public class Disciplina {
     private int ID;
     private String nome;
@@ -7,17 +9,21 @@ public class Disciplina {
     private int faltas;
     private Nota n1, n2, media;
 
-    public Disciplina(int ID, String nome, Integer maxFaltas, int faltas, Nota n1, Nota n2) {
+    //CONSTRUTOR
+    public Disciplina(int ID, String nome, Integer maxFaltas, int faltas, @Nullable Nota n1, @Nullable Nota n2) {
         this.ID = ID;
         this.nome = nome;
         this.maxFaltas = maxFaltas;
         this.faltas = faltas;
         this.n1 = n1;
         this.n2 = n2;
-        this.media = new Nota();
-        this.calculaMedia(this.n1, this.n2);
+        if (n1 != null && n2 != null){
+            this.media = new Nota();
+            this.calculaMedia(this.n1, this.n2);
+        }
     }
 
+    //GETTERS AND SETTERS
     public int getID() {
         return ID;
     }

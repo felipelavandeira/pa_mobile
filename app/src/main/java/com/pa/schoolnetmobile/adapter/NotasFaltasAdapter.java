@@ -23,8 +23,6 @@ public class NotasFaltasAdapter extends BaseAdapter {
     private Locale locale = new Locale("pt");
 
     //CONSTRUTOR
-
-
     public NotasFaltasAdapter(Context context, List<Disciplina> list) {
         this.list = list;
         this.context = context;
@@ -64,17 +62,17 @@ public class NotasFaltasAdapter extends BaseAdapter {
         viewHolder.getNomeDisciplina().setText(list.get(i).getNome());
         viewHolder.getNumFaltas().setText(String.format("Faltas: %s", list.get(i).getFaltas()));
 
-        if (list.get(i).getN1().getNota() >= 0)
+        if (list.get(i).getN1() != null)
             viewHolder.getTxtN1().setText(String.format(locale, "Nota 1: %.1f", list.get(i).getN1().getNota()));
         else
             viewHolder.getTxtN1().setText("Nota 1: -");
 
-        if (list.get(i).getN2().getNota() >= 0)
+        if (list.get(i).getN2() != null)
             viewHolder.getTxtN2().setText( String.format(locale, "Nota 2: %.1f", list.get(i).getN2().getNota()));
         else
             viewHolder.getTxtN2().setText("Nota 2: -");
 
-        if (list.get(i).getMedia().getNota() >= 0)
+        if (list.get(i).getMedia() != null)
             viewHolder.getTxtMedia().setText( String.format(locale, "Média: %.1f", list.get(i).getMedia().getNota()) );
         else
             viewHolder.getTxtMedia().setText("Média: -");

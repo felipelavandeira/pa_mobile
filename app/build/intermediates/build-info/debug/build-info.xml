@@ -5,30 +5,59 @@
     build-mode="COLD"
     density="xhdpi"
     format="10"
+    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.4.0"
-    timestamp="1559265882490"
+    timestamp="1559526036363"
     token="9027127349759958662"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="39519" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="374" />
     <task
         name="verifier"
-        duration="0" />
+        duration="17" />
+
+    <artifact
+        location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1559263433073"
+        timestamp="1559511368293"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -37,7 +66,7 @@
             location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -66,28 +95,45 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1559264799074"
+        ir-eligibility="METHOD_ADDED"
+        timestamp="1559523813748"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1559265479305"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1559526036363"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
             location="/home/felipe/AndroidStudioProjects/SchoolnetMobile/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1559265882490"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

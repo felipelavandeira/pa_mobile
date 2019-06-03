@@ -2,15 +2,14 @@ package com.pa.schoolnetmobile.requests;
 
 import android.support.annotation.Nullable;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Cache;
 import com.android.volley.NetworkResponse;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.toolbox.HttpHeaderParser;
-
 import org.json.JSONArray;
 import org.json.JSONException;
-
 import java.io.UnsupportedEncodingException;
 import java.util.Map;
 
@@ -18,12 +17,19 @@ public class CustomJsonArrayRequest extends Request<JSONArray> {
 
     private Map<String, String> params;
     private Response.Listener<JSONArray> response;
+    private Map<String, String> headers;
 
     //CONSTRUTOR
-    CustomJsonArrayRequest(int method, String url, @Nullable Map<String, String> params, Response.Listener<JSONArray> response, Response.ErrorListener errorListener) {
+    CustomJsonArrayRequest(int method,
+                           String url,
+                           @Nullable Map<String, String> params,
+                           Response.Listener<JSONArray> response,
+                           Response.ErrorListener errorListener,
+                           @Nullable Map<String, String> headers) {
         super(method, url, errorListener);
         this.params = params;
         this.response = response;
+        this.headers = headers;
     }
 
     //GETTERS AND SETTERS
@@ -92,5 +98,13 @@ public class CustomJsonArrayRequest extends Request<JSONArray> {
         entry.responseHeaders = headers;
 
         return entry;
+    }
+
+    @Override
+    public Map<String, String> getHeaders() throws AuthFailureError {
+        if (this.params != null)
+            return this.headers;
+        else
+            return super.getHeaders();
     }
 }

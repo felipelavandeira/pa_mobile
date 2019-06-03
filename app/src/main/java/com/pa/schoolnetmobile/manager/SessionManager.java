@@ -44,11 +44,6 @@ public class SessionManager {
 
     //VERIFICA SE O USUÁRIO ESTÁ LOGADO
     public void checkLogin(){
-        if (context.getClass() == MainActivity.class){
-            this.logoutUser();
-            return;
-        }
-
         if (!this.isLoggedIn()){
             //Usuário não está logado, enviando ele para a tela de login
             Intent intent = new Intent(context, MainActivity.class);
@@ -76,6 +71,13 @@ public class SessionManager {
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
         context.startActivity(intent);
+    }
+
+    public void destroySession(){
+        if (this.isLoggedIn()){
+            editor.clear();
+            editor.commit();
+        }
     }
 
     private boolean isLoggedIn(){

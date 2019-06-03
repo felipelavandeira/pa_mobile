@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    tools:context=".InitialActivity">
+    tools:context=".InitialActivity"
+    android:id="@+id/drawer_layout">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -41,18 +42,21 @@
                     android:layout_height="1dp"
                     android:background="@color/greyBlue"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <ListView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                    android:id="@+id/nomeAula"
-                    android:text="SIF031 - Engenharia de Software I"/>
+                    android:id="@+id/atividades" />
 
-                <TextView
+                <ProgressBar
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/assuntoAula"
-                    android:text="Modelo de custo de software (Pontos de Função)."/>
+                    android:layout_height="2dp"
+                    android:indeterminate="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:visibility="gone"
+                    android:id="@+id/progressoAtividade"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:indeterminateDrawable="@drawable/h_progressbar"/>
 
             </LinearLayout>
 
@@ -79,6 +83,17 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/lista_faltas"/>
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="5dp"
+                    android:indeterminate="true"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:visibility="gone"
+                    android:id="@+id/progressoNotas"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:indeterminateDrawable="@drawable/h_progressbar"/>
 
             </LinearLayout>
 

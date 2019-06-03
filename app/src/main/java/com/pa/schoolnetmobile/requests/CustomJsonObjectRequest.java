@@ -1,7 +1,9 @@
 package com.pa.schoolnetmobile.requests;
 
 import android.support.annotation.Nullable;
+import android.util.Log;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
 import com.android.volley.Request;
 import com.android.volley.Response;
@@ -17,17 +19,22 @@ public class CustomJsonObjectRequest extends Request<JSONObject> {
 
     private Response.Listener<JSONObject> response;
     private Map<String, String> params;
+    private Map<String, String> headers;
 
     //CONSTRUTOR
-    CustomJsonObjectRequest(int method, String url, @Nullable Map<String, String> params, Response.Listener<JSONObject> response, Response.ErrorListener errorListener) {
+    CustomJsonObjectRequest(int method,
+                            String url,
+                            @Nullable Map<String, String> params,
+                            Response.Listener<JSONObject> response,
+                            Response.ErrorListener errorListener,
+                            @Nullable Map<String, String> headers) {
         super(method, url, errorListener);
         this.params = params;
         this.response = response;
+        this.headers = headers;
     }
 
     //GETTERS AND SETTERS
-
-
     public Response.Listener<JSONObject> getResponse() {
         return response;
     }
@@ -61,5 +68,13 @@ public class CustomJsonObjectRequest extends Request<JSONObject> {
     @Override
     protected void deliverResponse(JSONObject response) {
         this.response.onResponse(response);
+    }
+
+    @Override
+    public Map<String, String> getHeaders() throws AuthFailureError {
+        if (this.headers != null)
+            return this.headers;
+        else
+            return super.getHeaders();
     }
 }

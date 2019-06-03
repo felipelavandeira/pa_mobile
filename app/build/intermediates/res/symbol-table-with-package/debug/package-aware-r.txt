@@ -777,6 +777,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable h_progressbar
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable navigation_empty_icon
@@ -827,6 +828,7 @@ id all
 id always
 id assuntoAula
 id async
+id atividades
 id auto
 id barrier
 id beginning
@@ -847,7 +849,6 @@ id container
 id content
 id contentPanel
 id coordinator
-id cronograma
 id custom
 id customPanel
 id decor_content_parent
@@ -860,6 +861,7 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id drawer_layout
 id edit_query
 id end
 id end_padder
@@ -886,7 +888,6 @@ id icon_group
 id ifRoom
 id image
 id info
-id inicio
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -897,6 +898,7 @@ id line3
 id listMode
 id list_item
 id lista_faltas
+id logout
 id masked
 id media_actions
 id media_note
@@ -922,11 +924,18 @@ id parent
 id parentPanel
 id parent_matrix
 id percent
-id perfil
+id perfil_conclusao
+id perfil_cpf
+id perfil_curso
+id perfil_email
+id perfil_nome
+id perfil_progresso
 id pin
 id progressBar
 id progress_circular
 id progress_horizontal
+id progressoAtividade
+id progressoNotas
 id radio
 id right
 id right_icon
@@ -1056,6 +1065,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout list_atividades
 layout list_faltas
 layout nav_header_layout
 layout notification_action
@@ -1115,6 +1125,9 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_pattern
 string logo_description
+string logout_txt
+string navigation_drawer_close
+string navigation_drawer_open
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through

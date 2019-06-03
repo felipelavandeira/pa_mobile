@@ -2,13 +2,17 @@ package com.pa.schoolnetmobile.requests;
 
 import android.content.Context;
 import android.os.AsyncTask;
+import android.support.annotation.Nullable;
 import android.util.Log;
+import android.widget.ProgressBar;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.Volley;
+import com.pa.schoolnetmobile.manager.SessionManager;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -19,29 +23,23 @@ public class ApiRequest extends AsyncTask<Object, Object, Object> {
     String url;
     Request request;
     int method;
-    private JSONObject response;
     Map<String, String> params;
     Context context;
+    ProgressBar progressBar;
+    SessionManager session;
+    Map<String, String> headers;
 
-    public ApiRequest(Context context, String url, int method, Map<String, String> params){
+    public ApiRequest(Context context, String url, int method, Map<String, String> params, @Nullable Map<String, String> headers){
         this.context = context;
         this.url = url;
         this.method = method;
         this.params = params;
-        requestQueue = Volley.newRequestQueue(context);
-    }
-
-    public ApiRequest(Context context, String url, int method){
-        this.context = context;
-        this.url = url;
-        this.method = method;
-        this.params = null;
+        this.headers = headers;
         requestQueue = Volley.newRequestQueue(context);
     }
 
 
     //GETTERS AND SETTERS
-
     public Context getContext() {
         return context;
     }
@@ -66,14 +64,6 @@ public class ApiRequest extends AsyncTask<Object, Object, Object> {
         this.method = method;
     }
 
-    public JSONObject getResponse() {
-        return response;
-    }
-
-    public void setResponse(JSONObject response) {
-        this.response = response;
-    }
-
     public Map<String, String> getParams() {
         return params;
     }
@@ -82,20 +72,35 @@ public class ApiRequest extends AsyncTask<Object, Object, Object> {
         this.params = params;
     }
 
+    public ProgressBar getProgressBar() {
+        return progressBar;
+    }
+
+    public void setProgressBar(ProgressBar progressBar) {
+        this.progressBar = progressBar;
+    }
+
+    public SessionManager getSession() {
+        return session;
+    }
+
+    public void setSession(SessionManager session) {
+        this.session = session;
+    }
+
     //MÉTODOS
     protected void executeRequest(){
         this.request = new CustomJsonObjectRequest(this.method, this.url, this.params, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
-                setResponse(response);
-                Log.d("APIREQUEST", getResponse().toString());
+                Log.d("APIREQUEST", response.toString());
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Log.e("APIREQUEST", error.getMessage());
             }
-        });
+        }, null);
         requestQueue.add(this.request);
     }
 

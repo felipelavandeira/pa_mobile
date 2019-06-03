@@ -5,8 +5,12 @@
     <string name="txt_senha">Senha</string>
     <string name="txt_entrar">Entrar</string>
     <string name="title_activity_initial">InitialActivity</string>
-    <string name="txt_faltas">Faltas</string>
+    <string name="txt_faltas">Notas e Faltas</string>
     <string name="txt_inicio_menu">Início</string>
     <string name="txt_cronograma_menu">Cronograma</string>
     <string name="txt_perfil_menu">Perfil</string>
+    <string name="navigation_drawer_open">Abrir o menu</string>
+    <string name="navigation_drawer_close">Fechar o menu</string>
+    <string name="logout_txt">Sair</string>
+
 </resources>

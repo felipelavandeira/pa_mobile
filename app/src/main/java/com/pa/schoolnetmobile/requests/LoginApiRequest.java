@@ -17,16 +17,8 @@ import java.util.Map;
 
 public class LoginApiRequest extends ApiRequest {
 
-    private ProgressBar progressBar;
-    private SessionManager session;
-
     public LoginApiRequest(Context context, String url, int method, Map<String, String> params, ProgressBar progressBar) {
-        super(context, url, method, params);
-        this.progressBar = progressBar;
-    }
-
-    public LoginApiRequest(Context context, String url, int method, ProgressBar progressBar) {
-        super(context, url, method);
+        super(context, url, method, params, null);
         this.progressBar = progressBar;
     }
 
@@ -51,14 +43,13 @@ public class LoginApiRequest extends ApiRequest {
         this.request = new CustomJsonObjectRequest(this.method, this.url, this.params, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
-                setResponse(response);
                 try {
                     SessionManager session = new SessionManager(getContext());
                     session.createLoginSession(
                             Integer.parseInt(getParams().get("ra")),
-                            getResponse().getJSONObject("success").getString("token")
+                            response.getJSONObject("success").getString("token")
                     );
-                    Log.d("LOGINAPIREQUEST", session.getUserDetails().toString());
+                    Log.d("LOGINAPIREQUEST", session.getUserDetails().get("token"));
                 } catch (JSONException e) {
                     e.printStackTrace();
                     Log.e("LOGINAPIREQUEST", e.getMessage());
@@ -76,7 +67,7 @@ public class LoginApiRequest extends ApiRequest {
                 }
                 getProgressBar().setVisibility(View.GONE);
             }
-        });
+        }, null);
         requestQueue.add(this.request);
     }
 
