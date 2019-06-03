@@ -20,7 +20,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.pa.schoolnetmobile.CronogramaActivity" />
         <activity android:name="com.pa.schoolnetmobile.InitialActivity" />
         <activity
             android:name="com.pa.schoolnetmobile.MainActivity"

@@ -13,7 +13,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".CronogramaActivity"></activity>
         <activity android:name=".InitialActivity" />
         <activity
             android:name=".MainActivity"

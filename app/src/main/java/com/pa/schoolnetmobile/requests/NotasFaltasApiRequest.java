@@ -6,10 +6,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.pa.schoolnetmobile.InitialActivity;
+import com.pa.schoolnetmobile.R;
 import com.pa.schoolnetmobile.adapter.NotasFaltasAdapter;
 import com.pa.schoolnetmobile.data.Disciplina;
 import com.pa.schoolnetmobile.data.Nota;
@@ -26,7 +28,10 @@ public class NotasFaltasApiRequest extends ApiRequest {
 
     private List<Disciplina> list;
     private ListView listView;
+    private View menuView;
     private NotasFaltasAdapter notasFaltasAdapter;
+    private TextView txtNome, txtEmail, txtCpf, txtCurso, txtConclusao;
+    private ProgressBar barConclusao;
 
     public NotasFaltasApiRequest(Context context,
                                  String url,
@@ -34,10 +39,20 @@ public class NotasFaltasApiRequest extends ApiRequest {
                                  Map<String, String> params,
                                  @Nullable Map<String, String> headers,
                                  ProgressBar progressBar,
-                                 ListView listView) {
+                                 ListView listView,
+                                 View menuView) {
         super(context, url, method, params, headers);
         this.progressBar = progressBar;
         this.listView = listView;
+        this.menuView = menuView;
+
+        //CONSTRUINDO A VIEW DO MENU COM AS INFORMAÇÕES DO USUÁRIO
+        this.txtNome = this.menuView.findViewById(R.id.perfil_nome);
+        this.txtEmail = this.menuView.findViewById(R.id.perfil_email);
+        this.txtCpf = this.menuView.findViewById(R.id.perfil_cpf);
+        this.txtCurso = this.menuView.findViewById(R.id.perfil_curso);
+        this.txtConclusao = this.menuView.findViewById(R.id.perfil_conclusao);
+        this.barConclusao = this.menuView.findViewById(R.id.perfil_progresso);
     }
 
     @Override
@@ -88,6 +103,12 @@ public class NotasFaltasApiRequest extends ApiRequest {
                         Log.d("NOTASAPIREQUEST", JSONdisciplina.toString());
                         list.add(disciplina);
                     }
+                    txtNome.setText(response.getString("name"));
+                    txtEmail.setText(response.getString("email"));
+                    txtCpf.setText(response.getString("cpf"));
+                    txtConclusao.setText(response.getInt("conclusion") + "% concluído");
+                    barConclusao.setProgress(response.getInt("conclusion"));
+                    txtCurso.setText(curso.getString("name"));
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
