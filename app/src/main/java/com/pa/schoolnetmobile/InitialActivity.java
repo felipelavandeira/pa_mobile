@@ -81,7 +81,7 @@ public class InitialActivity extends AppCompatActivity implements NavigationView
 
         ApiRequest apiRequest = new AulasApiRequest(
                 this,
-                "https://6238780e.ngrok.io/api/aula/",
+                "https://pa-webservice.000webhostapp.com/public/api/aula",
                 Request.Method.POST,
                 params,
                 headers,
@@ -91,7 +91,7 @@ public class InitialActivity extends AppCompatActivity implements NavigationView
         apiRequest.execute();
 
         ApiRequest notasRequest = new NotasFaltasApiRequest(this,
-                "https://6238780e.ngrok.io/api/faltas/" + session.getUserDetails().get("ID"),
+                "https://pa-webservice.000webhostapp.com/public/api/faltas/" + session.getUserDetails().get("ID"),
                 Request.Method.POST,
                 null,
                 headers,
